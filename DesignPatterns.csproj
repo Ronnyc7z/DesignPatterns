@@ -1,0 +1,202 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{3EBB2280-93CA-431A-B738-45477F8E6FD2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>DesignPatterns</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\pack\pack-5a7f4168fb77cd4136d3eb1fdae185d4ec8f218a.idx" />
+    <None Include=".git\objects\pack\pack-5a7f4168fb77cd4136d3eb1fdae185d4ec8f218a.pack" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".vs\DesignPatterns\v16\.suo" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="DesignPatterns\bin\Debug\netcoreapp3.1\DesignPatterns.deps.json" />
+    <None Include="DesignPatterns\bin\Debug\netcoreapp3.1\DesignPatterns.runtimeconfig.dev.json" />
+    <None Include="DesignPatterns\bin\Debug\netcoreapp3.1\DesignPatterns.runtimeconfig.json" />
+    <None Include="DesignPatterns\DesignPatterns.csproj" />
+    <None Include="DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.AssemblyInfoInputs.cache" />
+    <None Include="DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.assets.cache" />
+    <None Include="DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.csprojAssemblyReference.cache" />
+    <None Include="DesignPatterns\obj\DesignPatterns.csproj.EntityFrameworkCore.targets" />
+    <None Include="DesignPatterns\obj\DesignPatterns.csproj.nuget.cache" />
+    <None Include="DesignPatterns\obj\DesignPatterns.csproj.nuget.dgspec.json" />
+    <None Include="DesignPatterns\obj\DesignPatterns.csproj.nuget.g.props" />
+    <None Include="DesignPatterns\obj\DesignPatterns.csproj.nuget.g.targets" />
+    <None Include="DesignPatterns\obj\project.assets.json" />
+    <None Include="DesignPatterns\obj\Release\netcoreapp3.1\DesignPatterns.AssemblyInfoInputs.cache" />
+    <None Include="DesignPatterns\obj\Release\netcoreapp3.1\DesignPatterns.assets.cache" />
+    <None Include="Polymorfism\bin\Debug\netcoreapp3.1\Polymorfism.deps.json" />
+    <None Include="Polymorfism\bin\Debug\netcoreapp3.1\Polymorfism.runtimeconfig.dev.json" />
+    <None Include="Polymorfism\bin\Debug\netcoreapp3.1\Polymorfism.runtimeconfig.json" />
+    <None Include="Polymorfism\obj\Debug\netcoreapp3.1\Polymorfism.AssemblyInfoInputs.cache" />
+    <None Include="Polymorfism\obj\Debug\netcoreapp3.1\Polymorfism.assets.cache" />
+    <None Include="Polymorfism\obj\Debug\netcoreapp3.1\Polymorfism.csproj.CopyComplete" />
+    <None Include="Polymorfism\obj\Debug\netcoreapp3.1\Polymorfism.csprojAssemblyReference.cache" />
+    <None Include="Polymorfism\obj\Polymorfism.csproj.EntityFrameworkCore.targets" />
+    <None Include="Polymorfism\obj\Polymorfism.csproj.nuget.cache" />
+    <None Include="Polymorfism\obj\Polymorfism.csproj.nuget.dgspec.json" />
+    <None Include="Polymorfism\obj\Polymorfism.csproj.nuget.g.props" />
+    <None Include="Polymorfism\obj\Polymorfism.csproj.nuget.g.targets" />
+    <None Include="Polymorfism\obj\project.assets.json" />
+    <None Include="Polymorfism\obj\Release\netcoreapp3.1\Polymorfism.AssemblyInfoInputs.cache" />
+    <None Include="Polymorfism\obj\Release\netcoreapp3.1\Polymorfism.assets.cache" />
+    <None Include="Polymorfism\Polymorfism.csproj" />
+    <None Include="Singleton\bin\Debug\netcoreapp3.1\Singleton.deps.json" />
+    <None Include="Singleton\bin\Debug\netcoreapp3.1\Singleton.runtimeconfig.dev.json" />
+    <None Include="Singleton\bin\Debug\netcoreapp3.1\Singleton.runtimeconfig.json" />
+    <None Include="Singleton\obj\Debug\netcoreapp3.1\Singleton.AssemblyInfoInputs.cache" />
+    <None Include="Singleton\obj\Debug\netcoreapp3.1\Singleton.assets.cache" />
+    <None Include="Singleton\obj\Debug\netcoreapp3.1\Singleton.csprojAssemblyReference.cache" />
+    <None Include="Singleton\obj\project.assets.json" />
+    <None Include="Singleton\obj\Release\netcoreapp3.1\Singleton.AssemblyInfoInputs.cache" />
+    <None Include="Singleton\obj\Release\netcoreapp3.1\Singleton.assets.cache" />
+    <None Include="Singleton\obj\Singleton.csproj.nuget.cache" />
+    <None Include="Singleton\obj\Singleton.csproj.nuget.dgspec.json" />
+    <None Include="Singleton\obj\Singleton.csproj.nuget.g.props" />
+    <None Include="Singleton\obj\Singleton.csproj.nuget.g.targets" />
+    <None Include="Singleton\Singleton.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.AssemblyInfo.cs" />
+    <Compile Include="DesignPatterns\obj\Release\netcoreapp3.1\DesignPatterns.AssemblyInfo.cs" />
+    <Compile Include="DesignPatterns\Program.cs" />
+    <Compile Include="DesignPatterns\SingletonPattern.cs" />
+    <Compile Include="Polymorfism\Context.cs" />
+    <Compile Include="Polymorfism\obj\Debug\netcoreapp3.1\Polymorfism.AssemblyInfo.cs" />
+    <Compile Include="Polymorfism\obj\Release\netcoreapp3.1\Polymorfism.AssemblyInfo.cs" />
+    <Compile Include="Polymorfism\Program.cs" />
+    <Compile Include="Singleton\DatabaseConnection.cs" />
+    <Compile Include="Singleton\obj\Debug\netcoreapp3.1\Singleton.AssemblyInfo.cs" />
+    <Compile Include="Singleton\obj\Release\netcoreapp3.1\Singleton.AssemblyInfo.cs" />
+    <Compile Include="Singleton\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DesignPatterns\bin\Debug\netcoreapp3.1\DesignPatterns.dll" />
+    <Content Include="DesignPatterns\bin\Debug\netcoreapp3.1\DesignPatterns.exe" />
+    <Content Include="DesignPatterns\bin\Debug\netcoreapp3.1\DesignPatterns.pdb" />
+    <Content Include="DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.csproj.FileListAbsolute.txt" />
+    <Content Include="DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.dll" />
+    <Content Include="DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.exe" />
+    <Content Include="DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.pdb" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Polymorfism.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Polymorfism.exe" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\Polymorfism.pdb" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll" />
+    <Content Include="Polymorfism\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll" />
+    <Content Include="Polymorfism\obj\Debug\netcoreapp3.1\Polymorfism.csproj.FileListAbsolute.txt" />
+    <Content Include="Polymorfism\obj\Debug\netcoreapp3.1\Polymorfism.dll" />
+    <Content Include="Polymorfism\obj\Debug\netcoreapp3.1\Polymorfism.exe" />
+    <Content Include="Polymorfism\obj\Debug\netcoreapp3.1\Polymorfism.pdb" />
+    <Content Include="Singleton\bin\Debug\netcoreapp3.1\Singleton.dll" />
+    <Content Include="Singleton\bin\Debug\netcoreapp3.1\Singleton.exe" />
+    <Content Include="Singleton\bin\Debug\netcoreapp3.1\Singleton.pdb" />
+    <Content Include="Singleton\obj\Debug\netcoreapp3.1\Singleton.csproj.FileListAbsolute.txt" />
+    <Content Include="Singleton\obj\Debug\netcoreapp3.1\Singleton.dll" />
+    <Content Include="Singleton\obj\Debug\netcoreapp3.1\Singleton.exe" />
+    <Content Include="Singleton\obj\Debug\netcoreapp3.1\Singleton.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include="DesignPatterns\bin\Release\netcoreapp3.1\" />
+    <Folder Include="Polymorfism\bin\Release\netcoreapp3.1\" />
+    <Folder Include="Singleton\bin\Release\netcoreapp3.1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\DesignPatterns\\Singleton\\Singleton.csproj": {}
+    "C:\\Users\\ronny\\source\\repos\\DesignPatterns\\Singleton\\Singleton.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\DesignPatterns\\Singleton\\Singleton.csproj": {
+    "C:\\Users\\ronny\\source\\repos\\DesignPatterns\\Singleton\\Singleton.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\DesignPatterns\\Singleton\\Singleton.csproj",
+        "projectUniqueName": "C:\\Users\\ronny\\source\\repos\\DesignPatterns\\Singleton\\Singleton.csproj",
         "projectName": "Singleton",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\DesignPatterns\\Singleton\\Singleton.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\DesignPatterns\\Singleton\\obj\\",
+        "projectPath": "C:\\Users\\ronny\\source\\repos\\DesignPatterns\\Singleton\\Singleton.csproj",
+        "packagesPath": "C:\\Users\\ronny\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ronny\\source\\repos\\DesignPatterns\\Singleton\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ronny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
