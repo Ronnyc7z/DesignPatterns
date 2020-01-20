@@ -9,23 +9,21 @@ namespace Factory
         public static void Main(string[] args)
         {
             Console.WriteLine("Starting Factory Pattern demo:");
-            ConnectionFactory connectionFactory = new ConnectionFactory(); 
 
             Console.WriteLine("\nCreating MYSQL connection");
-            var mySqlConnection = connectionFactory.GetConnection("MYSQL");
+            var mySqlConnection = ConnectionFactory.GetConnection("MYSQL");
             mySqlConnection.Connect();
             mySqlConnection.Disconnect();
 
             Console.WriteLine("\nCreating ORACLE connection");
-            var oracleConnection = connectionFactory.GetConnection("ORACLE");
+            var oracleConnection = ConnectionFactory.GetConnection("ORACLE");
             oracleConnection.Connect();
             oracleConnection.Disconnect();
 
             Console.WriteLine("\nCreating a random connection");
-            var randomConnection = connectionFactory.GetConnection("MONGODB");
+            var randomConnection = ConnectionFactory.GetConnection("MONGODB");
             randomConnection.Connect();
             randomConnection.Disconnect();
-
         }
     }
 }

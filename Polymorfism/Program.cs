@@ -7,21 +7,28 @@ namespace Polymorfism
         static void Main(string[] args)
         {
 
-            A a = new A();
-            B b = new B();
-            C c = new C();
+            //A a = new A();
+            //B b = new B();
+            //C c = new C();
 
-            a.Test();
-            b.Test();
-            c.Test();
+            //a.Test();
+            //b.Test();
+            //c.Test();
 
-            a = new B();
-            a.Test();
+            //a = new B();
+            //a.Test();
 
-            b = new C();
-            b.Test();
+            //b = new C();
+            //b.Test();
 
-            Console.ReadKey();
+            //Console.ReadKey();
+
+            //Duck behavior testing
+
+            Duck duck = new RedHeadDuck();
+            duck.PerformFly();
+            duck.BreakWings();
+            duck.PerformFly();
         }
     }
 

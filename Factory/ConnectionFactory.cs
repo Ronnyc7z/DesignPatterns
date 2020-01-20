@@ -2,13 +2,14 @@
 using Factory.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Text;
 
 namespace Factory
 {
     public class ConnectionFactory
     {
-        public IConnection GetConnection(string connectionType)
+        public static IConnection GetConnection(string connectionType)
         {
             if (connectionType == "ORACLE")
                 return new OracleConnection();
