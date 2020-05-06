@@ -11,7 +11,7 @@ namespace Factory
     {
         public static IConnection GetConnection(string connectionType)
         {
-            if (connectionType == "YAHORACLE")
+            if (connectionType == "ORACLE")
                 return new OracleConnection();
             else if (connectionType == "MYSQL")
                 return new MySQLConnection();
